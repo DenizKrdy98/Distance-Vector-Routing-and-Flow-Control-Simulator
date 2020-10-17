@@ -6,12 +6,10 @@ The program basically consists of two major parts:
 - Distance Vector Computation
 - Forwarding and Routing Algorithm
 
-Distance Vector Computation:
-
+*Distance Vector Computation:*
 In this part, the user enters the path costs, and the distance vectors are computed by the program, and exported to a text file.
 
-Flow Routing Algorithm:
-
+*Flow Routing Algorithm:*
 In this part, the program takes the output of first part, the distance vectors, as an input to construct the topology. The user enters the each packet flow to be executed, i.e., specifies the packages to be transmitted from which router to which router with the sizes of packages. Then, the program similates the traffic at each steps of each packages including visited routers, queues, delays etc.
 
 Used skills:
